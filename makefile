@@ -1,10 +1,10 @@
 #This will be a makefile script for my main.c file
 
 main: main.c
-	gcc -m32 main.c -o main
+	gcc -m32 main.c -o main -lm
 
 run:
-	./main
+	./main input.txt 
 
 edit:
 	vim main.c
